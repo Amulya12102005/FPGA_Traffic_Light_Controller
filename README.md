@@ -20,5 +20,11 @@ It controls traffic signals for North, South, East, and West directions and is s
 2. Create a new RTL project  
 3. Add both Verilog files  
 4. Set `traffic_light_tb` as simulation top  
-5. Run Behavioral Simulation  
+5. Run Behavioral Simulation
+
+ ## Simulation (Vivado XSim)
+
+This waveform shows the behavioral simulation of the FPGA-based traffic light controller.
+The testbench drives clock, reset, and emergency signals, and the DUT outputs correct
+red/yellow/green signals for North, South, East, and West directions.
 
